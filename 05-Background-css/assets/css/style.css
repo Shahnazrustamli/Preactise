@@ -1,0 +1,15 @@
+/** @format */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+    background-image: url(../images/76cf2a41438c8fa8e6a6a049f05f9050.jpg) ;
+  overflow-y: scroll;
+  border: 5px solid black;
+  width: 800px;
+  height: 800px;
+}

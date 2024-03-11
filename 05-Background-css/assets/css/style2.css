@@ -1,0 +1,36 @@
+/** @format */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.mains {
+  display: flex;
+  justify-content: space-around;
+}
+.one {
+  border-top: 50px solid blue;
+  border-left: 50px solid transparent;
+  border-right: 50px solid blue;
+  border-bottom: 50px solid transparent;
+}
+.two{
+    border-top: 50px solid blue;
+    border-left: 50px solid blue;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+.three{
+    border-top: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 50px solid blue;
+    border-bottom: 50px solid blue;
+}
+.four{
+    border-top: 50px solid transparent;
+    border-left: 50px solid blue;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid blue;
+}
